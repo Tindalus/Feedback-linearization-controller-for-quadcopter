@@ -7,7 +7,7 @@ This was used alongside other controllers to gain results published in [this pap
 `Model.py` central script simulating model's controlled behavior and containg controller parameters.  
 
 ## Setup  
-**`FBL_Controller.py` takes 8 argument:**  
+**`Controller` from `FBL_Controller.py` takes 8 argument:**  
 > State (list (12)): Current state of the system.  
 > DesiredState (list (12)): List of desired trajectory coordinates.  
 > Parameters (list (12)): List of controller paremeters.  
