@@ -47,7 +47,7 @@ for i in range(N):
     #make circular trajectory
     DesiredState[2,0] = np.sin(i*0.01) 
     DesiredState[4,0] = np.cos(i*0.01)
-...
+    ...
 ```
 this will give following movement:  
 ![circular movement on hight 1m](resources/pic2.png)
